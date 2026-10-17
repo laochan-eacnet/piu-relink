@@ -13,6 +13,7 @@ WoW64 on x64). Design: `PLAN.md`; runtime details: `docs/lxrt.md`; bridges:
 | `lxrt/` | `lxrt.dll` | ELF binder (scope, versions, COPY, TLS, `RTLD_NEXT`, `dladdr`), glibc 2.31 HLE |
 | `bridges/gfx/` | `lxgfx.dll` | X11 + XF86VidMode + GLX → Win32/WGL, all GL 1.1/GLU entry points (stdcall wrappers) |
 | `bridges/snd/` | `lxsnd.dll` | ALSA PCM → WASAPI shared mode |
+| `bridges/usb/` | `lxusb.dll` | libusb-1.0 + libusb-0.1 → Windows WinUSB (real LXIO boards) |
 | `ffmpeg/build.sh` | `out/linux/ffmpeg/*.so.*` | minimal FFmpeg 4.2.11 (Matroska/WebM, VP9, Opus, swscale) as i386 ELF, relinked like the other guest libraries |
 | `tools/mksysroot.sh` | `sysroot/` | Ubuntu focal i386 glibc 2.31 / GCC 10 sysroot (WSL) |
 | `tools/mkgame.sh` | `out/game/` | relink everything into a development game directory |
@@ -28,6 +29,7 @@ wsl -e bash /mnt/d/tmp/piurelink/ffmpeg/build.sh           # once: minimal FFmpe
 C:/msys64/usr/bin/bash.exe lxrt/build.sh                   # out/win/lxrt.dll
 C:/msys64/usr/bin/bash.exe bridges/gfx/build.sh            # out/win/lxgfx.dll
 C:/msys64/usr/bin/bash.exe bridges/snd/build.sh            # out/win/lxsnd.dll
+C:/msys64/usr/bin/bash.exe bridges/usb/build.sh            # out/win/lxusb.dll
 C:/msys64/usr/bin/bash.exe tools/mkgame.sh                 # out/game (console subsystem)
 C:/msys64/usr/bin/bash.exe tools/package.sh [dest] [data]  # out/dist/piu (GUI subsystem)
 ```
@@ -43,7 +45,7 @@ C:/msys64/usr/bin/bash.exe tools/package.sh [dest] [data-source]
 
 The default destination is `out/dist/piu`. Publication relinks the GUI `piu.exe` and guest
 DLLs (including `phoenixtools.so.dll` and `libcurl.so.4.dll`), refreshes
-`lxrt.dll`/`lxgfx.dll`/`lxsnd.dll`, and adds these server entry points:
+`lxrt.dll`/`lxgfx.dll`/`lxsnd.dll`/`lxusb.dll`, and adds these server entry points:
 
 * `start-server.cmd`: double-click to run the LAN server, or pass its usual command-line
   arguments, for example `start-server.cmd --bind 192.168.1.42 --port 8080`.
@@ -158,6 +160,10 @@ described above. Details: `docs/opengl-x86.md` (Display configuration),
 * Guest executables must not use TLS (local/initial-exec `%gs` accesses are rejected by the
   relinker); piu has none.
 * FFmpeg is built without x86 SIMD (its asm needs text relocations); decoding keeps up at 60 fps.
-* Real LXIO hardware (`virtual_lxio = false`) would need a native libusb/WinUSB provider behind
-  `RTLD_NEXT`; not implemented.
+* Real LXIO hardware uses `lxusb.dll` with `[input] virtual_lxio = false` and the Windows
+  WinUSB driver bound to the board (for example, in Zadig select the board and install WinUSB).
+  HID-class `0d2f:1020`/`0d2f:1040` boards must be switched from HidUsb to WinUSB; they are
+  invisible to this provider otherwise. No third-party libusb is shipped. WinUSB cannot
+  port-reset a device, so `usb_reset` only aborts/resets claimed-interface pipes.
+  This hardware path is untested on real boards.
 * Prism's x87 emulation rounds `fld %st(0)` copies to double precision.

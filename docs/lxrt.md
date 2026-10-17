@@ -23,7 +23,8 @@ sequenceDiagram
 
 * **Lookup order**: global scope (EXE, preload modules, then DT_NEEDED breadth-first), then
   native tables: lxrt's own groups (`LX_SYMTAB(...)` in every `lxrt/*.c`), then providers
-  `lxgfx.dll` (X11/GLX/VidMode/GL/GLU) and `lxsnd.dll` (ALSA) loaded from lxrt's directory.
+  `lxgfx.dll` (X11/GLX/VidMode/GL/GLU), `lxsnd.dll` (ALSA) and `lxusb.dll` (libusb-1.0/0.1
+  over WinUSB) loaded from lxrt's directory.
   GNU/SysV hash, symbol versions (hidden versions only for exact requests), weak undefined → 0,
   unresolved functions → trap stubs that abort with `call to unimplemented function 'X'`.
 * **Relocations**: `R_386_32/PC32/GLOB_DAT/JMP_SLOT/COPY/TLS_DTPMOD32/TLS_DTPOFF32/IRELATIVE`;
@@ -39,7 +40,7 @@ sequenceDiagram
 ## Running
 
 All configuration lives in **`phoenixtools.ini` beside the EXE**, shared with phoenixtools and
-the bridges; no environment variable configures lxrt, lxgfx or lxsnd. Diagnostics are `[debug]`
+the bridges; no environment variable configures lxrt, lxgfx, lxsnd or lxusb. Diagnostics are `[debug]`
 keys (all off by default; booleans `true/false/yes/no/on/off/1/0`; relative paths resolve against
 the EXE directory). `python tools/run.py -s debug.trace=true ...` sets keys for a single run.
 

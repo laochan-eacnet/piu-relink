@@ -340,6 +340,13 @@ void *lx_lookup_global(const char *name, const char *version, lx_module *after, 
     return *found ? (void *)def_addr(&d) : NULL;
 }
 
+LX_EXPORT void *lx_guest_symbol(const char *name)
+{
+    int found;
+    void *p = lx_lookup_global(name, NULL, NULL, &found);
+    return found ? p : NULL;
+}
+
 /* ---- unresolved-symbol trap stubs ---------------------------------------------------- */
 
 static unsigned char *trap_page;

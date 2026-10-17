@@ -1,4 +1,4 @@
-/* Native symbol tables: lxrt's own groups (generated list) + provider DLLs (lxgfx, lxsnd). */
+/* Native symbol tables: lxrt's own groups (generated list) + provider DLLs (lxgfx, lxsnd, lxusb). */
 #include "lxrt.h"
 
 #include <stdlib.h>
@@ -50,7 +50,7 @@ static void image_range(HMODULE h, uintptr_t *lo, uintptr_t *hi)
 
 void lx_native_init(void)
 {
-    static const char *const names[] = { "lxgfx.dll", "lxsnd.dll" };
+    static const char *const names[] = { "lxgfx.dll", "lxsnd.dll", "lxusb.dll" };
     const lx_sym *ptabs[MAX_PROVIDERS];
     unsigned pcounts[MAX_PROVIDERS];
     HMODULE self = NULL;

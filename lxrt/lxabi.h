@@ -1,5 +1,6 @@
 #pragma once
-/* Contract between lxrt.dll (ELF binder) and native provider DLLs (lxrt itself, lxgfx.dll, lxsnd.dll).
+/* Contract between lxrt.dll (ELF binder) and native provider DLLs (lxrt itself, lxgfx.dll, lxsnd.dll,
+ * lxusb.dll).
  *
  * A provider exports exactly one C entry point:
  *     __declspec(dllexport) const lx_sym *lx_provider_symbols(unsigned *count);
@@ -19,6 +20,13 @@ typedef struct lx_sym {
     const char *version;
     void *addr;
 } lx_sym;
+
+/* lxrt.dll export for providers, valid once binding has finished (i.e. from guest calls):
+ *     void *lx_guest_symbol(const char *name);
+ * Address of the global-scope definition of `name` (EXE, preload, guest DLLs, then native
+ * providers), as an unversioned dlsym(RTLD_DEFAULT) would return; NULL when undefined. For a
+ * data object the EXE copied via R_386_COPY this is the EXE's live copy. */
+typedef void *(*lx_guest_symbol_fn)(const char *name);
 
 typedef const lx_sym *(*lx_provider_symbols_fn)(unsigned *count);
 

@@ -70,9 +70,18 @@ P2, Service, Test, and Coin1 keyboard bindings are read from
 ### `virtual_lxio = false`
 
 Every interposed `libusb_*` and `usb_*` operation is forwarded with
-`dlsym(RTLD_NEXT, ...)` to the real 32-bit libusb implementation. This is an
-explicit opt-in for authorized real LXIO hardware. Disk, network, lock-payload,
-and raw-port safety restrictions remain active.
+`dlsym(RTLD_NEXT, ...)` to the real 32-bit USB implementation. On Windows this
+provider is `lxusb.dll`, which implements both APIs over the system WinUSB
+driver; no third-party libusb is shipped. Set `[input] virtual_lxio = false`
+and bind WinUSB to the board (for example, select the board in Zadig and
+install WinUSB). HID-class `0d2f:1020`/`0d2f:1040` boards normally use HidUsb
+and must be switched to WinUSB before this provider can discover them.
+WinUSB cannot port-reset devices, so `usb_reset` only resets the claimed
+interfaces' pipes. This Windows hardware path has not been tested on real
+boards.
+
+This is an explicit opt-in for authorized real LXIO hardware. Disk, network,
+lock-payload, and raw-port safety restrictions remain active.
 
 The launcher does not select the mode or parse configuration.
 

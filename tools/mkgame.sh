@@ -8,7 +8,7 @@
 #                           to the EXE directory (default: this repo's data/)
 #   PRESERVE_CONFIG=1      merge newly introduced defaults without replacing existing settings
 # Inputs: piu, lib/ (game libs), phoenixtools/bin/, out/linux/ffmpeg/ (rebuilt FFmpeg),
-#         out/win/{lxrt,lxgfx,lxsnd}.dll (native runtime + bridges).
+#         out/win/{lxrt,lxgfx,lxsnd,lxusb}.dll (native runtime + bridges).
 set -euo pipefail
 cd "$(dirname "$0")/.."
 . tools/env.sh
@@ -48,7 +48,7 @@ for g in "${guest[@]}"; do
 done
 rl piu -o "$out/piu.exe" --exe --preload phoenixtools.so --subsystem "$subsystem" "${protect[@]}" -v
 
-for n in lxrt lxgfx lxsnd; do cp "out/win/$n.dll" "$out/"; done
+for n in lxrt lxgfx lxsnd lxusb; do cp "out/win/$n.dll" "$out/"; done
 
 write_config() {
   if [ "${PRESERVE_CONFIG:-0}" = 1 ]; then
