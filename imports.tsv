@@ -1,0 +1,950 @@
+piu	iconv	GLIBC_2.1	FUNC	GLOBAL
+piu	snd_pcm_writei	ALSA_0.9	FUNC	GLOBAL
+piu	libusb_control_transfer		FUNC	GLOBAL
+piu	avformat_alloc_context	LIBAVFORMAT_58	FUNC	GLOBAL
+piu	libusb_get_device_descriptor		FUNC	GLOBAL
+piu	snd_pcm_avail_update	ALSA_0.9	FUNC	GLOBAL
+piu	glXMakeCurrent		FUNC	GLOBAL
+piu	libusb_get_config_descriptor		FUNC	GLOBAL
+piu	strncasecmp	GLIBC_2.0	FUNC	GLOBAL
+piu	XF86VidModeSetViewPort		FUNC	GLOBAL
+piu	rename	GLIBC_2.0	FUNC	GLOBAL
+piu	XF86VidModeSwitchToMode		FUNC	GLOBAL
+piu	__libc_start_main	GLIBC_2.0	FUNC	GLOBAL
+piu	time	GLIBC_2.0	FUNC	GLOBAL
+piu	__udivdi3	GLIBC_2.0	FUNC	GLOBAL
+piu	mad_stream_buffer		FUNC	GLOBAL
+piu	tanf	GLIBC_2.0	FUNC	GLOBAL
+piu	mad_frame_decode		FUNC	GLOBAL
+piu	srand	GLIBC_2.0	FUNC	GLOBAL
+piu	__isoc99_sscanf	GLIBC_2.7	FUNC	GLOBAL
+piu	glScalef		FUNC	GLOBAL
+piu	XGrabKeyboard		FUNC	GLOBAL
+piu	snd_pcm_close	ALSA_0.9	FUNC	GLOBAL
+piu	glMatrixMode		FUNC	GLOBAL
+piu	vsprintf	GLIBC_2.0	FUNC	GLOBAL
+piu	pthread_attr_setstacksize	GLIBC_2.1	FUNC	GLOBAL
+piu	snd_pcm_hw_params_set_buffer_size	ALSA_0.9	FUNC	GLOBAL
+piu	sin	GLIBC_2.0	FUNC	GLOBAL
+piu	glVertex3f		FUNC	GLOBAL
+piu	curl_easy_cleanup	CURL_OPENSSL_4	FUNC	GLOBAL
+piu	pthread_mutex_trylock	GLIBC_2.0	FUNC	GLOBAL
+piu	libusb_handle_events		FUNC	GLOBAL
+piu	libusb_get_bus_number		FUNC	GLOBAL
+piu	tcsetattr	GLIBC_2.0	FUNC	GLOBAL
+piu	glClearColor		FUNC	GLOBAL
+piu	avpicture_fill	LIBAVCODEC_58	FUNC	GLOBAL
+piu	abort	GLIBC_2.0	FUNC	GLOBAL
+piu	mkdir	GLIBC_2.0	FUNC	GLOBAL
+piu	pthread_mutex_lock	GLIBC_2.0	FUNC	GLOBAL
+piu	fsync	GLIBC_2.0	FUNC	GLOBAL
+piu	glTexEnvi		FUNC	GLOBAL
+piu	snd_pcm_sw_params	ALSA_0.9	FUNC	GLOBAL
+piu	libusb_interrupt_transfer		FUNC	GLOBAL
+piu	XCreateWindow		FUNC	GLOBAL
+piu	execl	GLIBC_2.0	FUNC	GLOBAL
+piu	exit	GLIBC_2.0	FUNC	GLOBAL
+piu	__umoddi3	GLIBC_2.0	FUNC	GLOBAL
+piu	close	GLIBC_2.0	FUNC	GLOBAL
+piu	pthread_create	GLIBC_2.1	FUNC	GLOBAL
+piu	__vsnprintf_chk	GLIBC_2.3.4	FUNC	GLOBAL
+piu	memcpy	GLIBC_2.0	FUNC	GLOBAL
+piu	memmove	GLIBC_2.0	FUNC	GLOBAL
+piu	snd_pcm_hw_params_set_channels	ALSA_0.9	FUNC	GLOBAL
+piu	strncpy	GLIBC_2.0	FUNC	GLOBAL
+piu	glVertexPointer		FUNC	GLOBAL
+piu	sem_destroy	GLIBC_2.1	FUNC	GLOBAL
+piu	connect	GLIBC_2.0	FUNC	GLOBAL
+piu	realloc	GLIBC_2.0	FUNC	GLOBAL
+piu	umount	GLIBC_2.0	FUNC	GLOBAL
+piu	av_freep	LIBAVUTIL_56	FUNC	GLOBAL
+piu	libusb_submit_transfer		FUNC	GLOBAL
+piu	usb_open		FUNC	GLOBAL
+piu	__fprintf_chk	GLIBC_2.3.4	FUNC	GLOBAL
+piu	fgets	GLIBC_2.0	FUNC	GLOBAL
+piu	glDisableClientState		FUNC	GLOBAL
+piu	recv	GLIBC_2.0	FUNC	GLOBAL
+piu	glLoadIdentity		FUNC	GLOBAL
+piu	libusb_close		FUNC	GLOBAL
+piu	isspace	GLIBC_2.0	FUNC	GLOBAL
+piu	open	GLIBC_2.0	FUNC	GLOBAL
+piu	XOpenDisplay		FUNC	GLOBAL
+piu	glColorMask		FUNC	GLOBAL
+piu	_ZN13FTTextureFontC1EPKhj		FUNC	GLOBAL
+piu	strtok	GLIBC_2.0	FUNC	GLOBAL
+piu	XSetNormalHints		FUNC	GLOBAL
+piu	libusb_get_device_address		FUNC	GLOBAL
+piu	usleep	GLIBC_2.0	FUNC	GLOBAL
+piu	av_find_best_stream	LIBAVFORMAT_58	FUNC	GLOBAL
+piu	snd_pcm_sw_params_malloc	ALSA_0.9	FUNC	GLOBAL
+piu	pthread_mutex_init	GLIBC_2.0	FUNC	GLOBAL
+piu	__stack_chk_fail	GLIBC_2.4	FUNC	GLOBAL
+piu	glColor3f		FUNC	GLOBAL
+piu	iconv_open	GLIBC_2.1	FUNC	GLOBAL
+piu	pthread_cond_destroy	GLIBC_2.3.2	FUNC	GLOBAL
+piu	av_malloc	LIBAVUTIL_56	FUNC	GLOBAL
+piu	glOrtho		FUNC	GLOBAL
+piu	__longjmp_chk	GLIBC_2.11	FUNC	GLOBAL
+piu	libusb_init		FUNC	GLOBAL
+piu	snd_pcm_hw_params_free	ALSA_0.9	FUNC	GLOBAL
+piu	ioctl	GLIBC_2.0	FUNC	GLOBAL
+piu	pthread_barrier_destroy	GLIBC_2.2	FUNC	GLOBAL
+piu	pow	GLIBC_2.0	FUNC	GLOBAL
+piu	glTranslatef		FUNC	GLOBAL
+piu	gettimeofday	GLIBC_2.0	FUNC	GLOBAL
+piu	clock_gettime	GLIBC_2.17	FUNC	GLOBAL
+piu	av_probe_input_format	LIBAVFORMAT_58	FUNC	GLOBAL
+piu	libusb_free_transfer		FUNC	GLOBAL
+piu	fork	GLIBC_2.0	FUNC	GLOBAL
+piu	__fxstat	GLIBC_2.0	FUNC	GLOBAL
+piu	ftell	GLIBC_2.0	FUNC	GLOBAL
+piu	sscanf	GLIBC_2.0	FUNC	GLOBAL
+piu	avcodec_flush_buffers	LIBAVCODEC_58	FUNC	GLOBAL
+piu	glGenTextures		FUNC	GLOBAL
+piu	pthread_join	GLIBC_2.0	FUNC	GLOBAL
+piu	fwrite	GLIBC_2.0	FUNC	GLOBAL
+piu	avio_context_free	LIBAVFORMAT_58	FUNC	GLOBAL
+piu	__gmon_start__		NOTYPE	WEAK
+piu	localtime	GLIBC_2.0	FUNC	GLOBAL
+piu	glViewport		FUNC	GLOBAL
+piu	glCompressedTexImage2D		FUNC	GLOBAL
+piu	__ctype_tolower_loc	GLIBC_2.3	FUNC	GLOBAL
+piu	pthread_cond_init	GLIBC_2.3.2	FUNC	GLOBAL
+piu	mad_frame_init		FUNC	GLOBAL
+piu	glGetString		FUNC	GLOBAL
+piu	mmap	GLIBC_2.0	FUNC	GLOBAL
+piu	curl_easy_strerror	CURL_OPENSSL_4	FUNC	GLOBAL
+piu	av_frame_unref	LIBAVUTIL_56	FUNC	GLOBAL
+piu	strtod	GLIBC_2.0	FUNC	GLOBAL
+piu	av_frame_free	LIBAVUTIL_56	FUNC	GLOBAL
+piu	dlopen	GLIBC_2.1	FUNC	GLOBAL
+piu	usb_find_devices		FUNC	GLOBAL
+piu	strlen	GLIBC_2.0	FUNC	GLOBAL
+piu	socket	GLIBC_2.0	FUNC	GLOBAL
+piu	pthread_mutex_destroy	GLIBC_2.0	FUNC	GLOBAL
+piu	strstr	GLIBC_2.0	FUNC	GLOBAL
+piu	snd_pcm_hw_params_any	ALSA_0.9	FUNC	GLOBAL
+piu	chdir	GLIBC_2.0	FUNC	GLOBAL
+piu	sigaction	GLIBC_2.0	FUNC	GLOBAL
+piu	snd_pcm_wait	ALSA_0.9	FUNC	GLOBAL
+piu	__divdi3	GLIBC_2.0	FUNC	GLOBAL
+piu	av_frame_alloc	LIBAVUTIL_56	FUNC	GLOBAL
+piu	pthread_attr_init	GLIBC_2.1	FUNC	GLOBAL
+piu	avformat_open_input	LIBAVFORMAT_58	FUNC	GLOBAL
+piu	XLookupString		FUNC	GLOBAL
+piu	__fdelt_chk	GLIBC_2.15	FUNC	GLOBAL
+piu	__memcpy_chk	GLIBC_2.3.4	FUNC	GLOBAL
+piu	libusb_detach_kernel_driver		FUNC	GLOBAL
+piu	glVertex2f		FUNC	GLOBAL
+piu	avcodec_open2	LIBAVCODEC_58	FUNC	GLOBAL
+piu	pthread_cond_wait	GLIBC_2.3.2	FUNC	GLOBAL
+piu	av_strerror	LIBAVUTIL_56	FUNC	GLOBAL
+piu	send	GLIBC_2.0	FUNC	GLOBAL
+piu	snd_pcm_hw_params	ALSA_0.9	FUNC	GLOBAL
+piu	mount	GLIBC_2.0	FUNC	GLOBAL
+piu	XCreateColormap		FUNC	GLOBAL
+piu	libusb_open		FUNC	GLOBAL
+piu	glTexParameterf		FUNC	GLOBAL
+piu	glEnable		FUNC	GLOBAL
+piu	glClear		FUNC	GLOBAL
+piu	sws_getContext	LIBSWSCALE_5	FUNC	GLOBAL
+piu	usb_set_altinterface		FUNC	GLOBAL
+piu	av_dict_set	LIBAVUTIL_56	FUNC	GLOBAL
+piu	futimes	GLIBC_2.3	FUNC	GLOBAL
+piu	sqrt	GLIBC_2.0	FUNC	GLOBAL
+piu	pthread_mutexattr_init	GLIBC_2.0	FUNC	GLOBAL
+piu	snd_pcm_hw_params_malloc	ALSA_0.9	FUNC	GLOBAL
+piu	munmap	GLIBC_2.0	FUNC	GLOBAL
+piu	sprintf	GLIBC_2.0	FUNC	GLOBAL
+piu	snprintf	GLIBC_2.0	FUNC	GLOBAL
+piu	fcntl	GLIBC_2.0	FUNC	GLOBAL
+piu	_setjmp	GLIBC_2.0	FUNC	GLOBAL
+piu	av_seek_frame	LIBAVFORMAT_58	FUNC	GLOBAL
+piu	iconv_close	GLIBC_2.1	FUNC	GLOBAL
+piu	pthread_mutexattr_settype	GLIBC_2.1	FUNC	GLOBAL
+piu	avformat_find_stream_info	LIBAVFORMAT_58	FUNC	GLOBAL
+piu	mad_stream_finish		FUNC	GLOBAL
+piu	usb_set_configuration		FUNC	GLOBAL
+piu	libusb_cancel_transfer		FUNC	GLOBAL
+piu	glReadPixels		FUNC	GLOBAL
+piu	libusb_release_interface		FUNC	GLOBAL
+piu	isalnum	GLIBC_2.0	FUNC	GLOBAL
+piu	av_read_frame	LIBAVFORMAT_58	FUNC	GLOBAL
+piu	strtoul	GLIBC_2.0	FUNC	GLOBAL
+piu	atan2f	GLIBC_2.0	FUNC	GLOBAL
+piu	globfree	GLIBC_2.0	FUNC	GLOBAL
+piu	glTexCoord2f		FUNC	GLOBAL
+piu	libusb_get_device_list		FUNC	GLOBAL
+piu	freeifaddrs	GLIBC_2.3	FUNC	GLOBAL
+piu	isalpha	GLIBC_2.0	FUNC	GLOBAL
+piu	pthread_attr_setschedpolicy	GLIBC_2.0	FUNC	GLOBAL
+piu	libusb_exit		FUNC	GLOBAL
+piu	strcmp	GLIBC_2.0	FUNC	GLOBAL
+piu	snd_pcm_delay	ALSA_0.9	FUNC	GLOBAL
+piu	rand	GLIBC_2.0	FUNC	GLOBAL
+piu	memcmp	GLIBC_2.0	FUNC	GLOBAL
+piu	avformat_close_input	LIBAVFORMAT_58	FUNC	GLOBAL
+piu	inet_addr	GLIBC_2.0	FUNC	GLOBAL
+piu	tolower	GLIBC_2.0	FUNC	GLOBAL
+piu	curl_easy_perform	CURL_OPENSSL_4	FUNC	GLOBAL
+piu	memset	GLIBC_2.0	FUNC	GLOBAL
+piu	snd_pcm_sw_params_current	ALSA_0.9	FUNC	GLOBAL
+piu	sem_init	GLIBC_2.1	FUNC	GLOBAL
+piu	avpicture_get_size	LIBAVCODEC_58	FUNC	GLOBAL
+piu	getenv	GLIBC_2.0	FUNC	GLOBAL
+piu	pthread_barrier_init	GLIBC_2.2	FUNC	GLOBAL
+piu	glActiveTexture		FUNC	GLOBAL
+piu	XWarpPointer		FUNC	GLOBAL
+piu	snd_pcm_hw_params_set_rate_near	ALSA_0.9.0rc4	FUNC	GLOBAL
+piu	av_init_packet	LIBAVCODEC_58	FUNC	GLOBAL
+piu	usb_init		FUNC	GLOBAL
+piu	pthread_cond_signal	GLIBC_2.3.2	FUNC	GLOBAL
+piu	strchr	GLIBC_2.0	FUNC	GLOBAL
+piu	glPushMatrix		FUNC	GLOBAL
+piu	__errno_location	GLIBC_2.0	FUNC	GLOBAL
+piu	glVertex2i		FUNC	GLOBAL
+piu	glXSwapBuffers		FUNC	GLOBAL
+piu	glStencilFunc		FUNC	GLOBAL
+piu	_exit	GLIBC_2.0	FUNC	GLOBAL
+piu	pthread_barrier_wait	GLIBC_2.2	FUNC	GLOBAL
+piu	fread	GLIBC_2.0	FUNC	GLOBAL
+piu	sem_trywait	GLIBC_2.1	FUNC	GLOBAL
+piu	tcflush	GLIBC_2.0	FUNC	GLOBAL
+piu	sysinfo	GLIBC_2.0	FUNC	GLOBAL
+piu	glGetFloatv		FUNC	GLOBAL
+piu	strcat	GLIBC_2.0	FUNC	GLOBAL
+piu	glTexSubImage2D		FUNC	GLOBAL
+piu	glTexParameteri		FUNC	GLOBAL
+piu	__strcat_chk	GLIBC_2.3.4	FUNC	GLOBAL
+piu	snd_pcm_open	ALSA_0.9	FUNC	GLOBAL
+piu	XSetStandardProperties		FUNC	GLOBAL
+piu	pthread_kill	GLIBC_2.0	FUNC	GLOBAL
+piu	avcodec_decode_video2	LIBAVCODEC_58	FUNC	GLOBAL
+piu	glStencilOp		FUNC	GLOBAL
+piu	strtol	GLIBC_2.0	FUNC	GLOBAL
+piu	glEnableClientState		FUNC	GLOBAL
+piu	waitpid	GLIBC_2.0	FUNC	GLOBAL
+piu	__xstat	GLIBC_2.0	FUNC	GLOBAL
+piu	remove	GLIBC_2.0	FUNC	GLOBAL
+piu	snd_pcm_hw_params_set_format	ALSA_0.9	FUNC	GLOBAL
+piu	__strcpy_chk	GLIBC_2.3.4	FUNC	GLOBAL
+piu	sync	GLIBC_2.0	FUNC	GLOBAL
+piu	pthread_cond_timedwait	GLIBC_2.3.2	FUNC	GLOBAL
+piu	inet_ntoa	GLIBC_2.0	FUNC	GLOBAL
+piu	__cxa_atexit	GLIBC_2.1.3	FUNC	GLOBAL
+piu	free	GLIBC_2.0	FUNC	GLOBAL
+piu	glRotatef		FUNC	GLOBAL
+piu	libusb_kernel_driver_active		FUNC	GLOBAL
+piu	glob	GLIBC_2.27	FUNC	GLOBAL
+piu	glShadeModel		FUNC	GLOBAL
+piu	calloc	GLIBC_2.0	FUNC	GLOBAL
+piu	usb_reset		FUNC	GLOBAL
+piu	snd_pcm_hw_params_set_periods	ALSA_0.9	FUNC	GLOBAL
+piu	strcasecmp	GLIBC_2.0	FUNC	GLOBAL
+piu	glGetIntegerv		FUNC	GLOBAL
+piu	strrchr	GLIBC_2.0	FUNC	GLOBAL
+piu	usb_control_msg		FUNC	GLOBAL
+piu	curl_easy_setopt	CURL_OPENSSL_4	FUNC	GLOBAL
+piu	pthread_cond_broadcast	GLIBC_2.3.2	FUNC	GLOBAL
+piu	mad_frame_finish		FUNC	GLOBAL
+piu	XFree		FUNC	GLOBAL
+piu	memchr	GLIBC_2.0	FUNC	GLOBAL
+piu	usb_claim_interface		FUNC	GLOBAL
+piu	usb_close		FUNC	GLOBAL
+piu	read	GLIBC_2.0	FUNC	GLOBAL
+piu	XNextEvent		FUNC	GLOBAL
+piu	pthread_attr_destroy	GLIBC_2.0	FUNC	GLOBAL
+piu	pthread_mutex_unlock	GLIBC_2.0	FUNC	GLOBAL
+piu	fclose	GLIBC_2.1	FUNC	GLOBAL
+piu	ioperm	GLIBC_2.0	FUNC	GLOBAL
+piu	getsockopt	GLIBC_2.0	FUNC	GLOBAL
+piu	glXChooseVisual		FUNC	GLOBAL
+piu	glEnd		FUNC	GLOBAL
+piu	__moddi3	GLIBC_2.0	FUNC	GLOBAL
+piu	gluPerspective		FUNC	GLOBAL
+piu	ferror	GLIBC_2.0	FUNC	GLOBAL
+piu	mad_synth_frame		FUNC	GLOBAL
+piu	fileno	GLIBC_2.0	FUNC	GLOBAL
+piu	strcpy	GLIBC_2.0	FUNC	GLOBAL
+piu	avcodec_free_context	LIBAVCODEC_58	FUNC	GLOBAL
+piu	execv	GLIBC_2.0	FUNC	GLOBAL
+piu	glAlphaFunc		FUNC	GLOBAL
+piu	dlsym	GLIBC_2.0	FUNC	GLOBAL
+piu	pthread_exit	GLIBC_2.0	FUNC	GLOBAL
+piu	avcodec_alloc_context3	LIBAVCODEC_58	FUNC	GLOBAL
+piu	glDisable		FUNC	GLOBAL
+piu	usb_find_busses		FUNC	GLOBAL
+piu	av_free	LIBAVUTIL_56	FUNC	GLOBAL
+piu	getifaddrs	GLIBC_2.3	FUNC	GLOBAL
+piu	libusb_get_active_config_descriptor		FUNC	GLOBAL
+piu	fopen	GLIBC_2.1	FUNC	GLOBAL
+piu	sws_scale	LIBSWSCALE_5	FUNC	GLOBAL
+piu	toupper	GLIBC_2.0	FUNC	GLOBAL
+piu	glPixelStorei		FUNC	GLOBAL
+piu	curl_easy_getinfo	CURL_OPENSSL_4	FUNC	GLOBAL
+piu	lseek64	GLIBC_2.2	FUNC	GLOBAL
+piu	av_packet_unref	LIBAVCODEC_58	FUNC	GLOBAL
+piu	sinf	GLIBC_2.0	FUNC	GLOBAL
+piu	getcwd	GLIBC_2.0	FUNC	GLOBAL
+piu	curl_easy_init	CURL_OPENSSL_4	FUNC	GLOBAL
+piu	sws_freeContext	LIBSWSCALE_5	FUNC	GLOBAL
+piu	tcgetattr	GLIBC_2.0	FUNC	GLOBAL
+piu	snd_pcm_sw_params_free	ALSA_0.9	FUNC	GLOBAL
+piu	glBegin		FUNC	GLOBAL
+piu	snd_pcm_sw_params_set_avail_min	ALSA_0.9	FUNC	GLOBAL
+piu	XF86VidModeGetAllModeLines		FUNC	GLOBAL
+piu	mad_stream_init		FUNC	GLOBAL
+piu	glPopMatrix		FUNC	GLOBAL
+piu	strdup	GLIBC_2.0	FUNC	GLOBAL
+piu	glColor4fv		FUNC	GLOBAL
+piu	sem_wait	GLIBC_2.1	FUNC	GLOBAL
+piu	__memset_chk	GLIBC_2.3.4	FUNC	GLOBAL
+piu	__printf_chk	GLIBC_2.3.4	FUNC	GLOBAL
+piu	sysconf	GLIBC_2.0	FUNC	GLOBAL
+piu	glColor3fv		FUNC	GLOBAL
+piu	glXCreateContext		FUNC	GLOBAL
+piu	glTexCoordPointer		FUNC	GLOBAL
+piu	XMapRaised		FUNC	GLOBAL
+piu	glDeleteTextures		FUNC	GLOBAL
+piu	__fread_chk	GLIBC_2.7	FUNC	GLOBAL
+piu	lseek	GLIBC_2.0	FUNC	GLOBAL
+piu	av_get_media_type_string	LIBAVUTIL_56	FUNC	GLOBAL
+piu	mktime	GLIBC_2.0	FUNC	GLOBAL
+piu	closedir	GLIBC_2.0	FUNC	GLOBAL
+piu	pthread_attr_setdetachstate	GLIBC_2.0	FUNC	GLOBAL
+piu	sleep	GLIBC_2.0	FUNC	GLOBAL
+piu	pthread_mutexattr_destroy	GLIBC_2.0	FUNC	GLOBAL
+piu	avcodec_parameters_to_context	LIBAVCODEC_58	FUNC	GLOBAL
+piu	write	GLIBC_2.0	FUNC	GLOBAL
+piu	avio_alloc_context	LIBAVFORMAT_58	FUNC	GLOBAL
+piu	select	GLIBC_2.0	FUNC	GLOBAL
+piu	glTexImage2D		FUNC	GLOBAL
+piu	snd_pcm_hw_params_set_access	ALSA_0.9	FUNC	GLOBAL
+piu	__vsprintf_chk	GLIBC_2.3.4	FUNC	GLOBAL
+piu	opendir	GLIBC_2.0	FUNC	GLOBAL
+piu	gluLookAt		FUNC	GLOBAL
+piu	glClientActiveTexture		FUNC	GLOBAL
+piu	snd_pcm_prepare	ALSA_0.9	FUNC	GLOBAL
+piu	XPending		FUNC	GLOBAL
+piu	qsort	GLIBC_2.0	FUNC	GLOBAL
+piu	libusb_alloc_transfer		FUNC	GLOBAL
+piu	libusb_free_device_list		FUNC	GLOBAL
+piu	mad_synth_init		FUNC	GLOBAL
+piu	glColor4f		FUNC	GLOBAL
+piu	strncmp	GLIBC_2.0	FUNC	GLOBAL
+piu	glBlendFunc		FUNC	GLOBAL
+piu	glDrawArrays		FUNC	GLOBAL
+piu	fflush	GLIBC_2.0	FUNC	GLOBAL
+piu	sem_post	GLIBC_2.1	FUNC	GLOBAL
+piu	glBindTexture		FUNC	GLOBAL
+piu	setlocale	GLIBC_2.0	FUNC	GLOBAL
+piu	glCullFace		FUNC	GLOBAL
+piu	fscanf	GLIBC_2.0	FUNC	GLOBAL
+piu	__sprintf_chk	GLIBC_2.3.4	FUNC	GLOBAL
+piu	wcsdup	GLIBC_2.0	FUNC	GLOBAL
+piu	__snprintf_chk	GLIBC_2.3.4	FUNC	GLOBAL
+piu	avcodec_find_decoder	LIBAVCODEC_58	FUNC	GLOBAL
+piu	fseek	GLIBC_2.0	FUNC	GLOBAL
+piu	glReadBuffer		FUNC	GLOBAL
+piu	libusb_claim_interface		FUNC	GLOBAL
+piu	strerror	GLIBC_2.0	FUNC	GLOBAL
+piu	pthread_attr_setschedparam	GLIBC_2.0	FUNC	GLOBAL
+piu	gethostbyname	GLIBC_2.0	FUNC	GLOBAL
+piu	libusb_free_config_descriptor		FUNC	GLOBAL
+piu	__pthread_key_create	GLIBC_2.0	FUNC	WEAK
+piu	malloc	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	__nl_langinfo_l	GLIBC_2.2	FUNC	GLOBAL
+libstdc++	fileno	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	fputs	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	_ITM_addUserCommitAction		NOTYPE	WEAK
+libstdc++	abort	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	__errno_location	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	_ITM_memcpyRtWn		NOTYPE	WEAK
+libstdc++	statvfs64	GLIBC_2.1	FUNC	GLOBAL
+libstdc++	sprintf	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	wmemchr	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	open	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	pthread_cond_destroy	GLIBC_2.3.2	FUNC	WEAK
+libstdc++	mkdir	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	strerror	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	__cxa_atexit	GLIBC_2.1.3	FUNC	GLOBAL
+libstdc++	memcmp	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	open64	GLIBC_2.1	FUNC	GLOBAL
+libstdc++	__divdi3	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	clock_gettime	GLIBC_2.17	FUNC	GLOBAL
+libstdc++	__ctype_get_mb_cur_max	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	__fprintf_chk	GLIBC_2.3.4	FUNC	GLOBAL
+libstdc++	_ZGTtnaj		NOTYPE	WEAK
+libstdc++	syscall	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	__gmon_start__		NOTYPE	WEAK
+libstdc++	pthread_cond_signal	GLIBC_2.3.2	FUNC	WEAK
+libstdc++	realloc	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	iconv_open	GLIBC_2.1	FUNC	GLOBAL
+libstdc++	isspace	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	__xstat64	GLIBC_2.2	FUNC	GLOBAL
+libstdc++	strchr	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	vsnprintf	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	putwc	GLIBC_2.2	FUNC	GLOBAL
+libstdc++	getenv	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	__strftime_l	GLIBC_2.3	FUNC	GLOBAL
+libstdc++	writev	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	wmemmove	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	wcslen	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	write	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	pthread_key_create		NOTYPE	WEAK
+libstdc++	mbsrtowcs	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	_ITM_RU1		NOTYPE	WEAK
+libstdc++	wmemcmp	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	dgettext	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	rename	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	memset	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	fopen64	GLIBC_2.1	FUNC	GLOBAL
+libstdc++	strtold_l	GLIBC_2.3	FUNC	GLOBAL
+libstdc++	fseeko64	GLIBC_2.1	FUNC	GLOBAL
+libstdc++	wmemcpy	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	__assert_fail	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	__moddi3	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	pthread_rwlock_rdlock		NOTYPE	WEAK
+libstdc++	bindtextdomain	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	aligned_alloc	GLIBC_2.16	FUNC	GLOBAL
+libstdc++	mbrtowc	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	pthread_once		NOTYPE	WEAK
+libstdc++	read	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	_ITM_deregisterTMCloneTable		NOTYPE	WEAK
+libstdc++	gettext	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	_ZGTtdlPv		NOTYPE	WEAK
+libstdc++	ungetc	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	gettimeofday	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	fdopen	GLIBC_2.1	FUNC	GLOBAL
+libstdc++	free	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	__lxstat64	GLIBC_2.2	FUNC	GLOBAL
+libstdc++	mbsnrtowcs	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	_ITM_registerTMCloneTable		NOTYPE	WEAK
+libstdc++	truncate64	GLIBC_2.1	FUNC	GLOBAL
+libstdc++	__cxa_thread_atexit_impl	GLIBC_2.18	FUNC	GLOBAL
+libstdc++	fchmodat	GLIBC_2.4	FUNC	GLOBAL
+libstdc++	fflush	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	pthread_getspecific		NOTYPE	WEAK
+libstdc++	opendir	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	symlink	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	ioctl	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	wcrtomb	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	___tls_get_addr	GLIBC_2.3	FUNC	GLOBAL
+libstdc++	pthread_mutex_unlock	GLIBC_2.0	FUNC	WEAK
+libstdc++	wctob	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	realpath	GLIBC_2.3	FUNC	GLOBAL
+libstdc++	__wctype_l	GLIBC_2.1	FUNC	GLOBAL
+libstdc++	__wcsftime_l	GLIBC_2.3	FUNC	GLOBAL
+libstdc++	fclose	GLIBC_2.1	FUNC	GLOBAL
+libstdc++	ftello64	GLIBC_2.1	FUNC	GLOBAL
+libstdc++	__umoddi3	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	pthread_rwlock_wrlock		NOTYPE	WEAK
+libstdc++	readdir64	GLIBC_2.2	FUNC	GLOBAL
+libstdc++	getwc	GLIBC_2.2	FUNC	GLOBAL
+libstdc++	stderr	GLIBC_2.0	OBJECT	GLOBAL
+libstdc++	nanosleep	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	memcpy	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	_ITM_RU4		NOTYPE	WEAK
+libstdc++	strtoul	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	strlen	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	pthread_create		NOTYPE	WEAK
+libstdc++	__towupper_l	GLIBC_2.1	FUNC	GLOBAL
+libstdc++	iconv	GLIBC_2.1	FUNC	GLOBAL
+libstdc++	wmemset	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	setlocale	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	__strxfrm_l	GLIBC_2.1	FUNC	GLOBAL
+libstdc++	frexpl	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	chdir	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	utimensat	GLIBC_2.6	FUNC	GLOBAL
+libstdc++	get_nprocs	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	__strtod_l	GLIBC_2.1	FUNC	GLOBAL
+libstdc++	__wcsxfrm_l	GLIBC_2.1	FUNC	GLOBAL
+libstdc++	closedir	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	close	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	fwrite	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	_ITM_memcpyRnWt		NOTYPE	WEAK
+libstdc++	setvbuf	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	remove	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	malloc	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	wcscmp	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	pthread_mutex_lock	GLIBC_2.0	FUNC	WEAK
+libstdc++	__uselocale	GLIBC_2.3	FUNC	GLOBAL
+libstdc++	__stack_chk_fail	GLIBC_2.4	FUNC	GLOBAL
+libstdc++	iconv_close	GLIBC_2.1	FUNC	GLOBAL
+libstdc++	__freelocale	GLIBC_2.1	FUNC	GLOBAL
+libstdc++	fputc	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	stdin	GLIBC_2.0	OBJECT	GLOBAL
+libstdc++	__strcoll_l	GLIBC_2.1	FUNC	GLOBAL
+libstdc++	getc	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	poll	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	__pthread_key_create		NOTYPE	WEAK
+libstdc++	__towlower_l	GLIBC_2.1	FUNC	GLOBAL
+libstdc++	readlink	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	__iswctype_l	GLIBC_2.1	FUNC	GLOBAL
+libstdc++	pthread_cond_wait	GLIBC_2.3.2	FUNC	WEAK
+libstdc++	memmove	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	__strtof_l	GLIBC_2.1	FUNC	GLOBAL
+libstdc++	getcwd	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	wcsnrtombs	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	stdout	GLIBC_2.0	OBJECT	GLOBAL
+libstdc++	__fxstat64	GLIBC_2.2	FUNC	GLOBAL
+libstdc++	pthread_rwlock_unlock		NOTYPE	WEAK
+libstdc++	pthread_key_delete		NOTYPE	WEAK
+libstdc++	putc	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	__sprintf_chk	GLIBC_2.3.4	FUNC	GLOBAL
+libstdc++	__duplocale	GLIBC_2.1	FUNC	GLOBAL
+libstdc++	memchr	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	sendfile64	GLIBC_2.3	FUNC	GLOBAL
+libstdc++	link	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	__udivdi3	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	__newlocale	GLIBC_2.1	FUNC	GLOBAL
+libstdc++	fread	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	bind_textdomain_codeset	GLIBC_2.2	FUNC	GLOBAL
+libstdc++	__wcscoll_l	GLIBC_2.1	FUNC	GLOBAL
+libstdc++	strdup	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	pthread_cond_broadcast	GLIBC_2.3.2	FUNC	WEAK
+libstdc++	ungetwc	GLIBC_2.2	FUNC	GLOBAL
+libstdc++	pthread_detach		NOTYPE	WEAK
+libstdc++	lseek64	GLIBC_2.1	FUNC	GLOBAL
+libstdc++	strcmp	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	btowc	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	__cxa_finalize	GLIBC_2.1.3	FUNC	WEAK
+libstdc++	pthread_setspecific		NOTYPE	WEAK
+libstdc++	fchmod	GLIBC_2.0	FUNC	GLOBAL
+libstdc++	pthread_join		NOTYPE	WEAK
+libgcc_s	pthread_mutex_unlock	GLIBC_2.0	FUNC	WEAK
+libgcc_s	__pthread_key_create		NOTYPE	WEAK
+libgcc_s	_ITM_deregisterTMCloneTable		NOTYPE	WEAK
+libgcc_s	free	GLIBC_2.0	FUNC	GLOBAL
+libgcc_s	memcpy	GLIBC_2.0	FUNC	GLOBAL
+libgcc_s	pthread_getspecific		NOTYPE	WEAK
+libgcc_s	pthread_mutex_lock	GLIBC_2.0	FUNC	WEAK
+libgcc_s	__cxa_finalize	GLIBC_2.1.3	FUNC	WEAK
+libgcc_s	realloc	GLIBC_2.0	FUNC	GLOBAL
+libgcc_s	malloc	GLIBC_2.0	FUNC	GLOBAL
+libgcc_s	pthread_key_create		NOTYPE	WEAK
+libgcc_s	__gmon_start__		NOTYPE	WEAK
+libgcc_s	dl_iterate_phdr	GLIBC_2.2.4	FUNC	GLOBAL
+libgcc_s	strlen	GLIBC_2.0	FUNC	GLOBAL
+libgcc_s	pthread_once		NOTYPE	WEAK
+libgcc_s	memset	GLIBC_2.0	FUNC	GLOBAL
+libgcc_s	pthread_setspecific		NOTYPE	WEAK
+libgcc_s	_ITM_registerTMCloneTable		NOTYPE	WEAK
+libgcc_s	abort	GLIBC_2.0	FUNC	GLOBAL
+libgcc_s	calloc	GLIBC_2.0	FUNC	GLOBAL
+piu	_ZSt24__throw_out_of_range_fmtPKcz	GLIBCXX_3.4.20	FUNC	GLOBAL
+piu	_ZSt19__throw_logic_errorPKc	GLIBCXX_3.4	FUNC	GLOBAL
+piu	__cxa_begin_catch	CXXABI_1.3	FUNC	GLOBAL
+piu	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_mutateEjjPKcj	GLIBCXX_3.4.21	FUNC	GLOBAL
+piu	_ZSt17__throw_bad_allocv	GLIBCXX_3.4	FUNC	GLOBAL
+piu	_Znaj	GLIBCXX_3.4	FUNC	GLOBAL
+piu	_ZNKSt10filesystem7__cxx114path5_List13_Impl_deleterclEPNS2_5_ImplE	GLIBCXX_3.4.26	FUNC	GLOBAL
+piu	_ZNSt8__detail15_List_node_base4swapERS0_S1_	GLIBCXX_3.4.15	FUNC	GLOBAL
+piu	_ZNSt10filesystem7__cxx114path5_ListC1Ev	GLIBCXX_3.4.26	FUNC	GLOBAL
+piu	_ZNSt10filesystem6statusERKNS_7__cxx114pathE	GLIBCXX_3.4.26	FUNC	GLOBAL
+piu	_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6substrEjj	GLIBCXX_3.4.21	FUNC	GLOBAL
+piu	_ZNSt13random_device7_M_finiEv	GLIBCXX_3.4.18	FUNC	GLOBAL
+piu	_ZNSt8__detail15_List_node_base7_M_hookEPS0_	GLIBCXX_3.4.15	FUNC	GLOBAL
+piu	_ZNSt10filesystem16create_directoryERKNS_7__cxx114pathE	GLIBCXX_3.4.26	FUNC	GLOBAL
+piu	_ZNSt13random_device9_M_getvalEv	GLIBCXX_3.4.18	FUNC	GLOBAL
+piu	_ZSt19__throw_regex_errorNSt15regex_constants10error_typeE	GLIBCXX_3.4.15	FUNC	GLOBAL
+piu	_ZSt9use_facetINSt7__cxx117collateIcEEERKT_RKSt6locale	GLIBCXX_3.4.21	FUNC	GLOBAL
+piu	_ZSt16__throw_bad_castv	GLIBCXX_3.4	FUNC	GLOBAL
+piu	__cxa_bad_cast	CXXABI_1.3	FUNC	GLOBAL
+piu	__cxa_guard_acquire	CXXABI_1.3	FUNC	GLOBAL
+piu	_ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E	GLIBCXX_3.4	FUNC	GLOBAL
+piu	_ZdaPv	GLIBCXX_3.4	FUNC	GLOBAL
+piu	__cxa_allocate_exception	CXXABI_1.3	FUNC	GLOBAL
+piu	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7reserveEj	GLIBCXX_3.4.21	FUNC	GLOBAL
+piu	__cxa_guard_abort	CXXABI_1.3	FUNC	GLOBAL
+piu	_ZSt9use_facetISt5ctypeIcEERKT_RKSt6locale	GLIBCXX_3.4	FUNC	GLOBAL
+piu	_ZNKSt5ctypeIcE13_M_widen_initEv	GLIBCXX_3.4.11	FUNC	GLOBAL
+piu	_ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base	GLIBCXX_3.4	FUNC	GLOBAL
+piu	_ZdlPvj	CXXABI_1.3.9	FUNC	GLOBAL
+piu	_ZNSt8__detail15_List_node_base11_M_transferEPS0_S1_	GLIBCXX_3.4.15	FUNC	GLOBAL
+piu	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEaSEOS4_	GLIBCXX_3.4.21	FUNC	GLOBAL
+piu	_ZNSt6localeaSERKS_	GLIBCXX_3.4	FUNC	GLOBAL
+piu	_ZdlPv	GLIBCXX_3.4	FUNC	GLOBAL
+piu	_ZNSt7__cxx1119basic_istringstreamIcSt11char_traitsIcESaIcEED1Ev	GLIBCXX_3.4.21	FUNC	GLOBAL
+piu	__cxa_guard_release	CXXABI_1.3	FUNC	GLOBAL
+piu	_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE16find_last_not_ofEcj	GLIBCXX_3.4.21	FUNC	GLOBAL
+piu	_Znwj	GLIBCXX_3.4	FUNC	GLOBAL
+piu	_ZNKSt10filesystem7__cxx114path5_List3endEv	GLIBCXX_3.4.26	FUNC	GLOBAL
+piu	_ZSt20__throw_length_errorPKc	GLIBCXX_3.4	FUNC	GLOBAL
+piu	__cxa_throw	CXXABI_1.3	FUNC	GLOBAL
+piu	_Unwind_Resume	GCC_3.0	FUNC	GLOBAL
+piu	_ZNSi10_M_extractIlEERSiRT_	GLIBCXX_3.4.9	FUNC	GLOBAL
+piu	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE14_M_replace_auxEjjjc	GLIBCXX_3.4.21	FUNC	GLOBAL
+piu	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERjj	GLIBCXX_3.4.21	FUNC	GLOBAL
+piu	_ZNSt8ios_baseD2Ev	GLIBCXX_3.4	FUNC	GLOBAL
+piu	_ZNSt6localeC1ERKS_	GLIBCXX_3.4	FUNC	GLOBAL
+piu	__cxa_end_catch	CXXABI_1.3	FUNC	GLOBAL
+piu	_ZNSt6localeC1Ev	GLIBCXX_3.4	FUNC	GLOBAL
+piu	__cxa_rethrow	CXXABI_1.3	FUNC	GLOBAL
+piu	__cxa_throw_bad_array_new_length	CXXABI_1.3.8	FUNC	GLOBAL
+piu	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructEjc	GLIBCXX_3.4.21	FUNC	GLOBAL
+piu	_ZNSt13random_device7_M_initERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE	GLIBCXX_3.4.21	FUNC	GLOBAL
+piu	_ZNKSt10filesystem7__cxx114path17_M_find_extensionEv	GLIBCXX_3.4.26	FUNC	GLOBAL
+piu	_ZNKSt10filesystem7__cxx114path5_List5beginEv	GLIBCXX_3.4.26	FUNC	GLOBAL
+piu	_ZNSt10filesystem7__cxx1118directory_iteratorC1ERKNS0_4pathENS_17directory_optionsEPSt10error_code	GLIBCXX_3.4.26	FUNC	GLOBAL
+piu	__cxa_free_exception	CXXABI_1.3	FUNC	GLOBAL
+piu	_ZNSt10filesystem7__cxx1118directory_iteratorppEv	GLIBCXX_3.4.26	FUNC	GLOBAL
+piu	_ZNSt10filesystem7__cxx114path14_M_split_cmptsEv	GLIBCXX_3.4.26	FUNC	GLOBAL
+piu	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEjjPKcj	GLIBCXX_3.4.21	FUNC	GLOBAL
+piu	_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7compareEPKc	GLIBCXX_3.4.21	FUNC	GLOBAL
+piu	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_appendEPKcj	GLIBCXX_3.4.21	FUNC	GLOBAL
+piu	_ZNKSt10filesystem7__cxx1118directory_iteratordeEv	GLIBCXX_3.4.26	FUNC	GLOBAL
+piu	_ZNSt8__detail15_List_node_base9_M_unhookEv	GLIBCXX_3.4.15	FUNC	GLOBAL
+piu	__dynamic_cast	CXXABI_1.3	FUNC	GLOBAL
+piu	_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE17find_first_not_ofEcj	GLIBCXX_3.4.21	FUNC	GLOBAL
+piu	_ZSt18_Rb_tree_incrementPSt18_Rb_tree_node_base	GLIBCXX_3.4	FUNC	GLOBAL
+piu	_ZNSt8ios_baseC2Ev	GLIBCXX_3.4	FUNC	GLOBAL
+piu	_ZNSt6localeD1Ev	GLIBCXX_3.4	FUNC	GLOBAL
+piu	_ZNSt8ios_base4InitC1Ev	GLIBCXX_3.4	FUNC	GLOBAL
+piu	_ZNSt13runtime_errorC2EPKc	GLIBCXX_3.4.21	FUNC	GLOBAL
+piu	_ZNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEE7_M_syncEPcjj	GLIBCXX_3.4.21	FUNC	GLOBAL
+piu	_ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_	GLIBCXX_3.4	FUNC	GLOBAL
+piu	_ZSt25__throw_bad_function_callv	GLIBCXX_3.4.14	FUNC	GLOBAL
+piu	_ZSt9terminatev	GLIBCXX_3.4	FUNC	GLOBAL
+piu	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_assignERKS4_	GLIBCXX_3.4.21	FUNC	GLOBAL
+piu	_ZNSt10filesystem7__cxx114path5_ListC1ERKS2_	GLIBCXX_3.4.26	FUNC	GLOBAL
+piu	_ZNKSt6locale2id5_M_idEv	GLIBCXX_3.4	FUNC	GLOBAL
+piu	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE8_M_eraseEjj	GLIBCXX_3.4.21	FUNC	GLOBAL
+piu	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6assignEPKc	GLIBCXX_3.4.21	FUNC	GLOBAL
+piu	_ZNSt11regex_errorD1Ev	GLIBCXX_3.4.15	FUNC	GLOBAL
+piu	_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev	GLIBCXX_3.4.21	FUNC	GLOBAL
+piu	_ZNSt8ios_base4InitD1Ev	GLIBCXX_3.4	FUNC	GLOBAL
+piu	__gxx_personality_v0	CXXABI_1.3	FUNC	GLOBAL
+piu	__cxa_pure_virtual	CXXABI_1.3	FUNC	GLOBAL
+piu	__gcc_personality_v0	GCC_3.3.1	FUNC	GLOBAL
+phoenixtools.so	__snprintf_chk	GLIBC_2.3.4	FUNC	GLOBAL
+phoenixtools.so	strstr	GLIBC_2.0	FUNC	GLOBAL
+phoenixtools.so	strcmp	GLIBC_2.0	FUNC	GLOBAL
+phoenixtools.so	mprotect	GLIBC_2.0	FUNC	GLOBAL
+phoenixtools.so	_ITM_deregisterTMCloneTable		NOTYPE	WEAK
+phoenixtools.so	_exit	GLIBC_2.0	FUNC	GLOBAL
+phoenixtools.so	free	GLIBC_2.0	FUNC	GLOBAL
+phoenixtools.so	memcpy	GLIBC_2.0	FUNC	GLOBAL
+phoenixtools.so	clock_gettime	GLIBC_2.17	FUNC	GLOBAL
+phoenixtools.so	fgets	GLIBC_2.0	FUNC	GLOBAL
+phoenixtools.so	fclose	GLIBC_2.1	FUNC	GLOBAL
+phoenixtools.so	memcmp	GLIBC_2.0	FUNC	GLOBAL
+phoenixtools.so	sysconf	GLIBC_2.0	FUNC	GLOBAL
+phoenixtools.so	dladdr	GLIBC_2.34	FUNC	GLOBAL
+phoenixtools.so	fseeko	GLIBC_2.1	FUNC	GLOBAL
+phoenixtools.so	__cxa_finalize	GLIBC_2.1.3	FUNC	WEAK
+phoenixtools.so	usleep	GLIBC_2.0	FUNC	GLOBAL
+phoenixtools.so	fread	GLIBC_2.0	FUNC	GLOBAL
+phoenixtools.so	lstat	GLIBC_2.33	FUNC	GLOBAL
+phoenixtools.so	strtok_r	GLIBC_2.0	FUNC	GLOBAL
+phoenixtools.so	getenv	GLIBC_2.0	FUNC	GLOBAL
+phoenixtools.so	malloc	GLIBC_2.0	FUNC	GLOBAL
+phoenixtools.so	strerror	GLIBC_2.0	FUNC	GLOBAL
+phoenixtools.so	__memcpy_chk	GLIBC_2.3.4	FUNC	GLOBAL
+phoenixtools.so	__gmon_start__		NOTYPE	WEAK
+phoenixtools.so	stat	GLIBC_2.33	FUNC	GLOBAL
+phoenixtools.so	strtoul	GLIBC_2.0	FUNC	GLOBAL
+phoenixtools.so	strchr	GLIBC_2.0	FUNC	GLOBAL
+phoenixtools.so	strlen	GLIBC_2.0	FUNC	GLOBAL
+phoenixtools.so	write	GLIBC_2.0	FUNC	GLOBAL
+phoenixtools.so	strcasecmp	GLIBC_2.0	FUNC	GLOBAL
+phoenixtools.so	__isoc99_sscanf	GLIBC_2.7	FUNC	GLOBAL
+phoenixtools.so	memset	GLIBC_2.0	FUNC	GLOBAL
+phoenixtools.so	snprintf	GLIBC_2.0	FUNC	GLOBAL
+phoenixtools.so	__errno_location	GLIBC_2.0	FUNC	GLOBAL
+phoenixtools.so	strncpy	GLIBC_2.0	FUNC	GLOBAL
+phoenixtools.so	__vsnprintf_chk	GLIBC_2.3.4	FUNC	GLOBAL
+phoenixtools.so	strncasecmp	GLIBC_2.0	FUNC	GLOBAL
+phoenixtools.so	__strcpy_chk	GLIBC_2.3.4	FUNC	GLOBAL
+phoenixtools.so	strnlen	GLIBC_2.0	FUNC	GLOBAL
+phoenixtools.so	strrchr	GLIBC_2.0	FUNC	GLOBAL
+phoenixtools.so	dlsym	GLIBC_2.34	FUNC	GLOBAL
+phoenixtools.so	readdir64	GLIBC_2.2	FUNC	GLOBAL
+phoenixtools.so	clock_nanosleep	GLIBC_2.17	FUNC	GLOBAL
+phoenixtools.so	_ITM_registerTMCloneTable		NOTYPE	WEAK
+phoenixtools.so	strncmp	GLIBC_2.0	FUNC	GLOBAL
+phoenixtools.so	closedir	GLIBC_2.0	FUNC	GLOBAL
+phoenixtools.so	opendir	GLIBC_2.0	FUNC	GLOBAL
+phoenixtools.so	__ctype_tolower_loc	GLIBC_2.3	FUNC	GLOBAL
+phoenixtools.so	__ctype_b_loc	GLIBC_2.3	FUNC	GLOBAL
+phoenixtools.so	calloc	GLIBC_2.0	FUNC	GLOBAL
+libcurl.so.4	__cxa_finalize		NOTYPE	WEAK
+libcurl.so.4	_ITM_registerTMCloneTable		NOTYPE	WEAK
+libcurl.so.4	_ITM_deregisterTMCloneTable		NOTYPE	WEAK
+libcurl.so.4	__gmon_start__		NOTYPE	WEAK
+libstdc++	_Unwind_GetRegionStart	GCC_3.0	FUNC	GLOBAL
+libstdc++	_Unwind_SetGR	GCC_3.0	FUNC	GLOBAL
+libstdc++	_Unwind_GetDataRelBase	GCC_3.0	FUNC	GLOBAL
+libstdc++	__popcountsi2	GCC_3.4	FUNC	GLOBAL
+libstdc++	_Unwind_DeleteException	GCC_3.0	FUNC	GLOBAL
+libstdc++	_Unwind_GetLanguageSpecificData	GCC_3.0	FUNC	GLOBAL
+libstdc++	_Unwind_Resume_or_Rethrow	GCC_3.3	FUNC	GLOBAL
+libstdc++	_Unwind_RaiseException	GCC_3.0	FUNC	GLOBAL
+libstdc++	__ctzdi2	GCC_3.4	FUNC	GLOBAL
+libstdc++	_Unwind_GetIPInfo	GCC_4.2.0	FUNC	GLOBAL
+libstdc++	_Unwind_GetTextRelBase	GCC_3.0	FUNC	GLOBAL
+libstdc++	_Unwind_Resume	GCC_3.0	FUNC	GLOBAL
+libstdc++	_Unwind_SetIP	GCC_3.0	FUNC	GLOBAL
+libftgl.so.2	FT_New_Memory_Face		FUNC	GLOBAL
+libftgl.so.2	glCallList		FUNC	GLOBAL
+libftgl.so.2	glPopAttrib		FUNC	GLOBAL
+libftgl.so.2	_Znwj	GLIBCXX_3.4	FUNC	GLOBAL
+libftgl.so.2	__cxa_finalize	GLIBC_2.1.3	FUNC	WEAK
+libftgl.so.2	_ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_	GLIBCXX_3.4	FUNC	GLOBAL
+libftgl.so.2	gluTessBeginContour		FUNC	GLOBAL
+libftgl.so.2	glBegin		FUNC	GLOBAL
+libftgl.so.2	atan2	GLIBC_2.0	FUNC	GLOBAL
+libftgl.so.2	glDisable		FUNC	GLOBAL
+libftgl.so.2	_ZSt9terminatev	GLIBCXX_3.4	FUNC	GLOBAL
+libftgl.so.2	FT_Attach_Stream		FUNC	GLOBAL
+libftgl.so.2	FT_Load_Glyph		FUNC	GLOBAL
+libftgl.so.2	strdup	GLIBC_2.0	FUNC	GLOBAL
+libftgl.so.2	glNormal3d		FUNC	GLOBAL
+libftgl.so.2	glTexImage2D		FUNC	GLOBAL
+libftgl.so.2	FT_Get_Kerning		FUNC	GLOBAL
+libftgl.so.2	__cxa_allocate_exception	CXXABI_1.3	FUNC	GLOBAL
+libftgl.so.2	glPixelStorei		FUNC	GLOBAL
+libftgl.so.2	glTexCoord2f		FUNC	GLOBAL
+libftgl.so.2	fwrite	GLIBC_2.0	FUNC	GLOBAL
+libftgl.so.2	memcpy	GLIBC_2.0	FUNC	GLOBAL
+libftgl.so.2	_ZSt20__throw_length_errorPKc	GLIBCXX_3.4	FUNC	GLOBAL
+libftgl.so.2	malloc	GLIBC_2.0	FUNC	GLOBAL
+libftgl.so.2	gluTessNormal		FUNC	GLOBAL
+libftgl.so.2	_ZSt28_Rb_tree_rebalance_for_erasePSt18_Rb_tree_node_baseRS_	GLIBCXX_3.4	FUNC	GLOBAL
+libftgl.so.2	__cxa_guard_abort	CXXABI_1.3	FUNC	GLOBAL
+libftgl.so.2	__cxa_guard_release	CXXABI_1.3	FUNC	GLOBAL
+libftgl.so.2	wcsdup	GLIBC_2.0	FUNC	GLOBAL
+libftgl.so.2	glPushClientAttrib		FUNC	GLOBAL
+libftgl.so.2	__cxa_atexit	GLIBC_2.1.3	FUNC	GLOBAL
+libftgl.so.2	FT_Init_FreeType		FUNC	GLOBAL
+libftgl.so.2	_ZdlPvj	CXXABI_1.3.9	FUNC	GLOBAL
+libftgl.so.2	glGetTexLevelParameteriv		FUNC	GLOBAL
+libftgl.so.2	_ZTVN10__cxxabiv117__class_type_infoE	CXXABI_1.3	OBJECT	GLOBAL
+libftgl.so.2	__cxa_free_exception	CXXABI_1.3	FUNC	GLOBAL
+libftgl.so.2	strcmp	GLIBC_2.0	FUNC	GLOBAL
+libftgl.so.2	glBlendFunc		FUNC	GLOBAL
+libftgl.so.2	_Znaj	GLIBCXX_3.4	FUNC	GLOBAL
+libftgl.so.2	FT_Get_Char_Index		FUNC	GLOBAL
+libftgl.so.2	strndup	GLIBC_2.0	FUNC	GLOBAL
+libftgl.so.2	glDrawPixels		FUNC	GLOBAL
+libftgl.so.2	glPolygonMode		FUNC	GLOBAL
+libftgl.so.2	glNormal3f		FUNC	GLOBAL
+libftgl.so.2	gluTessEndPolygon		FUNC	GLOBAL
+libftgl.so.2	glPixelTransferf		FUNC	GLOBAL
+libftgl.so.2	glEnable		FUNC	GLOBAL
+libftgl.so.2	glBitmap		FUNC	GLOBAL
+libftgl.so.2	glGetIntegerv		FUNC	GLOBAL
+libftgl.so.2	glHint		FUNC	GLOBAL
+libftgl.so.2	wcsncmp	GLIBC_2.0	FUNC	GLOBAL
+libftgl.so.2	_ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base	GLIBCXX_3.4	FUNC	GLOBAL
+libftgl.so.2	iswspace	GLIBC_2.0	FUNC	GLOBAL
+libftgl.so.2	glTexEnvi		FUNC	GLOBAL
+libftgl.so.2	__stack_chk_fail	GLIBC_2.4	FUNC	GLOBAL
+libftgl.so.2	sqrt	GLIBC_2.0	FUNC	GLOBAL
+libftgl.so.2	__dynamic_cast	CXXABI_1.3	FUNC	GLOBAL
+libftgl.so.2	FT_Attach_File		FUNC	GLOBAL
+libftgl.so.2	FT_Set_Charmap		FUNC	GLOBAL
+libftgl.so.2	_ZSt18_Rb_tree_incrementPKSt18_Rb_tree_node_base	GLIBCXX_3.4	FUNC	GLOBAL
+libftgl.so.2	glPopClientAttrib		FUNC	GLOBAL
+libftgl.so.2	glVertex2f		FUNC	GLOBAL
+libftgl.so.2	glBindTexture		FUNC	GLOBAL
+libftgl.so.2	FT_Outline_Get_CBox		FUNC	GLOBAL
+libftgl.so.2	_ZNSt11logic_errorD1Ev	GLIBCXX_3.4	FUNC	GLOBAL
+libftgl.so.2	free	GLIBC_2.0	FUNC	GLOBAL
+libftgl.so.2	_ZdaPv	GLIBCXX_3.4	FUNC	GLOBAL
+libftgl.so.2	_ZTVN10__cxxabiv120__si_class_type_infoE	CXXABI_1.3	OBJECT	GLOBAL
+libftgl.so.2	glEnd		FUNC	GLOBAL
+libftgl.so.2	strncmp	GLIBC_2.0	FUNC	GLOBAL
+libftgl.so.2	glDeleteTextures		FUNC	GLOBAL
+libftgl.so.2	glTexParameteri		FUNC	GLOBAL
+libftgl.so.2	glGenTextures		FUNC	GLOBAL
+libftgl.so.2	glPushAttrib		FUNC	GLOBAL
+libftgl.so.2	__cxa_throw_bad_array_new_length	CXXABI_1.3.8	FUNC	GLOBAL
+libftgl.so.2	glNewList		FUNC	GLOBAL
+libftgl.so.2	_ZNSt11logic_errorC1EPKc	GLIBCXX_3.4.21	FUNC	GLOBAL
+libftgl.so.2	glNormal3dv		FUNC	GLOBAL
+libftgl.so.2	gluDeleteTess		FUNC	GLOBAL
+libftgl.so.2	_ZNSt8ios_base4InitC1Ev	GLIBCXX_3.4	FUNC	GLOBAL
+libftgl.so.2	FT_Select_Charmap		FUNC	GLOBAL
+libftgl.so.2	glTranslatef		FUNC	GLOBAL
+libftgl.so.2	glGenLists		FUNC	GLOBAL
+libftgl.so.2	FT_Done_FreeType		FUNC	GLOBAL
+libftgl.so.2	gluTessProperty		FUNC	GLOBAL
+libftgl.so.2	__fprintf_chk	GLIBC_2.3.4	FUNC	GLOBAL
+libftgl.so.2	memset	GLIBC_2.0	FUNC	GLOBAL
+libftgl.so.2	__gxx_personality_v0	CXXABI_1.3	FUNC	GLOBAL
+libftgl.so.2	glTexSubImage2D		FUNC	GLOBAL
+libftgl.so.2	FT_Set_Char_Size		FUNC	GLOBAL
+libftgl.so.2	glGetFloatv		FUNC	GLOBAL
+libftgl.so.2	gluNewTess		FUNC	GLOBAL
+libftgl.so.2	__cxa_throw	CXXABI_1.3	FUNC	GLOBAL
+libftgl.so.2	glEndList		FUNC	GLOBAL
+libftgl.so.2	gluTessCallback		FUNC	GLOBAL
+libftgl.so.2	_ITM_deregisterTMCloneTable		NOTYPE	WEAK
+libftgl.so.2	_Unwind_Resume	GCC_3.0	FUNC	GLOBAL
+libftgl.so.2	FT_New_Face		FUNC	GLOBAL
+libftgl.so.2	_ZTISt11logic_error	GLIBCXX_3.4	OBJECT	GLOBAL
+libftgl.so.2	FT_Render_Glyph		FUNC	GLOBAL
+libftgl.so.2	__cxa_guard_acquire	CXXABI_1.3	FUNC	GLOBAL
+libftgl.so.2	memmove	GLIBC_2.0	FUNC	GLOBAL
+libftgl.so.2	gluTessVertex		FUNC	GLOBAL
+libftgl.so.2	FT_Done_Face		FUNC	GLOBAL
+libftgl.so.2	gluTessBeginPolygon		FUNC	GLOBAL
+libftgl.so.2	stderr	GLIBC_2.0	OBJECT	GLOBAL
+libftgl.so.2	__gmon_start__		NOTYPE	WEAK
+libftgl.so.2	__cxa_pure_virtual	CXXABI_1.3	FUNC	GLOBAL
+libftgl.so.2	_ITM_registerTMCloneTable		NOTYPE	WEAK
+libftgl.so.2	__assert_fail	GLIBC_2.0	FUNC	GLOBAL
+libftgl.so.2	wcscmp	GLIBC_2.0	FUNC	GLOBAL
+libftgl.so.2	gluTessEndContour		FUNC	GLOBAL
+libftgl.so.2	glVertex3f		FUNC	GLOBAL
+libftgl.so.2	_ZNSt8ios_base4InitD1Ev	GLIBCXX_3.4	FUNC	GLOBAL
+libftgl.so.2	glDeleteLists		FUNC	GLOBAL
+libfreetype.so.6	png_set_strip_16	PNG16_0	FUNC	GLOBAL
+libfreetype.so.6	strstr	GLIBC_2.0	FUNC	GLOBAL
+libfreetype.so.6	strcmp	GLIBC_2.0	FUNC	GLOBAL
+libfreetype.so.6	png_read_image	PNG16_0	FUNC	GLOBAL
+libfreetype.so.6	read	GLIBC_2.0	FUNC	GLOBAL
+libfreetype.so.6	_ITM_deregisterTMCloneTable		NOTYPE	WEAK
+libfreetype.so.6	inflate		FUNC	GLOBAL
+libfreetype.so.6	png_set_expand_gray_1_2_4_to_8	PNG16_0	FUNC	GLOBAL
+libfreetype.so.6	memmove	GLIBC_2.0	FUNC	GLOBAL
+libfreetype.so.6	_setjmp	GLIBC_2.0	FUNC	GLOBAL
+libfreetype.so.6	png_error	PNG16_0	FUNC	GLOBAL
+libfreetype.so.6	free	GLIBC_2.0	FUNC	GLOBAL
+libfreetype.so.6	png_read_end	PNG16_0	FUNC	GLOBAL
+libfreetype.so.6	memcpy	GLIBC_2.0	FUNC	GLOBAL
+libfreetype.so.6	png_get_valid	PNG16_0	FUNC	GLOBAL
+libfreetype.so.6	memcmp	GLIBC_2.0	FUNC	GLOBAL
+libfreetype.so.6	png_set_longjmp_fn	PNG16_0	FUNC	GLOBAL
+libfreetype.so.6	__stack_chk_fail	GLIBC_2.4	FUNC	GLOBAL
+libfreetype.so.6	png_set_tRNS_to_alpha	PNG16_0	FUNC	GLOBAL
+libfreetype.so.6	__cxa_finalize	GLIBC_2.1.3	FUNC	WEAK
+libfreetype.so.6	strcat	GLIBC_2.0	FUNC	GLOBAL
+libfreetype.so.6	strcpy	GLIBC_2.0	FUNC	GLOBAL
+libfreetype.so.6	png_set_read_user_transform_fn	PNG16_0	FUNC	GLOBAL
+libfreetype.so.6	png_set_read_fn	PNG16_0	FUNC	GLOBAL
+libfreetype.so.6	getenv	GLIBC_2.0	FUNC	GLOBAL
+libfreetype.so.6	realloc	GLIBC_2.0	FUNC	GLOBAL
+libfreetype.so.6	malloc	GLIBC_2.0	FUNC	GLOBAL
+libfreetype.so.6	__fxstat	GLIBC_2.0	FUNC	GLOBAL
+libfreetype.so.6	__memcpy_chk	GLIBC_2.3.4	FUNC	GLOBAL
+libfreetype.so.6	__gmon_start__		NOTYPE	WEAK
+libfreetype.so.6	open	GLIBC_2.0	FUNC	GLOBAL
+libfreetype.so.6	png_set_interlace_handling	PNG16_0	FUNC	GLOBAL
+libfreetype.so.6	inflateEnd		FUNC	GLOBAL
+libfreetype.so.6	mmap	GLIBC_2.0	FUNC	GLOBAL
+libfreetype.so.6	png_create_info_struct	PNG16_0	FUNC	GLOBAL
+libfreetype.so.6	strlen	GLIBC_2.0	FUNC	GLOBAL
+libfreetype.so.6	png_set_filler	PNG16_0	FUNC	GLOBAL
+libfreetype.so.6	png_read_info	PNG16_0	FUNC	GLOBAL
+libfreetype.so.6	memset	GLIBC_2.0	FUNC	GLOBAL
+libfreetype.so.6	fcntl	GLIBC_2.28	FUNC	GLOBAL
+libfreetype.so.6	__errno_location	GLIBC_2.0	FUNC	GLOBAL
+libfreetype.so.6	memchr	GLIBC_2.0	FUNC	GLOBAL
+libfreetype.so.6	png_destroy_read_struct	PNG16_0	FUNC	GLOBAL
+libfreetype.so.6	strncpy	GLIBC_2.0	FUNC	GLOBAL
+libfreetype.so.6	png_set_gray_to_rgb	PNG16_0	FUNC	GLOBAL
+libfreetype.so.6	png_set_palette_to_rgb	PNG16_0	FUNC	GLOBAL
+libfreetype.so.6	__longjmp_chk	GLIBC_2.11	FUNC	GLOBAL
+libfreetype.so.6	munmap	GLIBC_2.0	FUNC	GLOBAL
+libfreetype.so.6	png_get_error_ptr	PNG16_0	FUNC	GLOBAL
+libfreetype.so.6	strrchr	GLIBC_2.0	FUNC	GLOBAL
+libfreetype.so.6	inflateInit2_		FUNC	GLOBAL
+libfreetype.so.6	png_get_io_ptr	PNG16_0	FUNC	GLOBAL
+libfreetype.so.6	inflateReset		FUNC	GLOBAL
+libfreetype.so.6	qsort	GLIBC_2.0	FUNC	GLOBAL
+libfreetype.so.6	png_get_IHDR	PNG16_0	FUNC	GLOBAL
+libfreetype.so.6	_ITM_registerTMCloneTable		NOTYPE	WEAK
+libfreetype.so.6	png_read_update_info	PNG16_0	FUNC	GLOBAL
+libfreetype.so.6	strncmp	GLIBC_2.0	FUNC	GLOBAL
+libfreetype.so.6	png_set_packing	PNG16_0	FUNC	GLOBAL
+libfreetype.so.6	strtol	GLIBC_2.0	FUNC	GLOBAL
+libfreetype.so.6	close	GLIBC_2.0	FUNC	GLOBAL
+libfreetype.so.6	png_create_read_struct	PNG16_0	FUNC	GLOBAL
+libfreetype.so.6	__sprintf_chk	GLIBC_2.3.4	FUNC	GLOBAL
+libpng16.so.16	_ITM_deregisterTMCloneTable		NOTYPE	WEAK
+libpng16.so.16	fflush	GLIBC_2.0	FUNC	GLOBAL
+libpng16.so.16	inflate		FUNC	GLOBAL
+libpng16.so.16	stderr	GLIBC_2.0	OBJECT	GLOBAL
+libpng16.so.16	_setjmp	GLIBC_2.0	FUNC	GLOBAL
+libpng16.so.16	inflateReset2	ZLIB_1.2.3.4	FUNC	GLOBAL
+libpng16.so.16	free	GLIBC_2.0	FUNC	GLOBAL
+libpng16.so.16	memcpy	GLIBC_2.0	FUNC	GLOBAL
+libpng16.so.16	crc32		FUNC	GLOBAL
+libpng16.so.16	ferror	GLIBC_2.0	FUNC	GLOBAL
+libpng16.so.16	inflateValidate	ZLIB_1.2.9	FUNC	GLOBAL
+libpng16.so.16	fclose	GLIBC_2.1	FUNC	GLOBAL
+libpng16.so.16	pow	GLIBC_2.29	FUNC	GLOBAL
+libpng16.so.16	memcmp	GLIBC_2.0	FUNC	GLOBAL
+libpng16.so.16	__stack_chk_fail	GLIBC_2.4	FUNC	GLOBAL
+libpng16.so.16	deflateReset		FUNC	GLOBAL
+libpng16.so.16	deflate		FUNC	GLOBAL
+libpng16.so.16	__cxa_finalize	GLIBC_2.1.3	FUNC	WEAK
+libpng16.so.16	fwrite	GLIBC_2.0	FUNC	GLOBAL
+libpng16.so.16	fread	GLIBC_2.0	FUNC	GLOBAL
+libpng16.so.16	deflateInit2_		FUNC	GLOBAL
+libpng16.so.16	malloc	GLIBC_2.0	FUNC	GLOBAL
+libpng16.so.16	strerror	GLIBC_2.0	FUNC	GLOBAL
+libpng16.so.16	__memcpy_chk	GLIBC_2.3.4	FUNC	GLOBAL
+libpng16.so.16	modf	GLIBC_2.0	FUNC	GLOBAL
+libpng16.so.16	__gmon_start__		NOTYPE	WEAK
+libpng16.so.16	inflateEnd		FUNC	GLOBAL
+libpng16.so.16	strlen	GLIBC_2.0	FUNC	GLOBAL
+libpng16.so.16	adler32		FUNC	GLOBAL
+libpng16.so.16	fopen	GLIBC_2.1	FUNC	GLOBAL
+libpng16.so.16	gmtime	GLIBC_2.0	FUNC	GLOBAL
+libpng16.so.16	memset	GLIBC_2.0	FUNC	GLOBAL
+libpng16.so.16	__errno_location	GLIBC_2.0	FUNC	GLOBAL
+libpng16.so.16	strtod	GLIBC_2.0	FUNC	GLOBAL
+libpng16.so.16	deflateEnd		FUNC	GLOBAL
+libpng16.so.16	frexp	GLIBC_2.0	FUNC	GLOBAL
+libpng16.so.16	__longjmp_chk	GLIBC_2.11	FUNC	GLOBAL
+libpng16.so.16	fputc	GLIBC_2.0	FUNC	GLOBAL
+libpng16.so.16	inflateInit2_		FUNC	GLOBAL
+libpng16.so.16	remove	GLIBC_2.0	FUNC	GLOBAL
+libpng16.so.16	inflateReset		FUNC	GLOBAL
+libpng16.so.16	__fprintf_chk	GLIBC_2.3.4	FUNC	GLOBAL
+libpng16.so.16	_ITM_registerTMCloneTable		NOTYPE	WEAK
+libpng16.so.16	abort	GLIBC_2.0	FUNC	GLOBAL
+libz.so.1	__snprintf_chk	GLIBC_2.3.4	FUNC	GLOBAL
+libz.so.1	read	GLIBC_2.0	FUNC	GLOBAL
+libz.so.1	_ITM_deregisterTMCloneTable		NOTYPE	WEAK
+libz.so.1	free	GLIBC_2.0	FUNC	GLOBAL
+libz.so.1	memcpy	GLIBC_2.0	FUNC	GLOBAL
+libz.so.1	__stack_chk_fail	GLIBC_2.4	FUNC	GLOBAL
+libz.so.1	__cxa_finalize	GLIBC_2.1.3	FUNC	WEAK
+libz.so.1	malloc	GLIBC_2.0	FUNC	GLOBAL
+libz.so.1	strerror	GLIBC_2.0	FUNC	GLOBAL
+libz.so.1	__gmon_start__		NOTYPE	WEAK
+libz.so.1	open	GLIBC_2.0	FUNC	GLOBAL
+libz.so.1	strlen	GLIBC_2.0	FUNC	GLOBAL
+libz.so.1	write	GLIBC_2.0	FUNC	GLOBAL
+libz.so.1	memset	GLIBC_2.0	FUNC	GLOBAL
+libz.so.1	snprintf	GLIBC_2.0	FUNC	GLOBAL
+libz.so.1	__errno_location	GLIBC_2.0	FUNC	GLOBAL
+libz.so.1	memchr	GLIBC_2.0	FUNC	GLOBAL
+libz.so.1	__vsnprintf_chk	GLIBC_2.3.4	FUNC	GLOBAL
+libz.so.1	lseek64	GLIBC_2.1	FUNC	GLOBAL
+libz.so.1	_ITM_registerTMCloneTable		NOTYPE	WEAK
+libz.so.1	close	GLIBC_2.0	FUNC	GLOBAL
+libmad.so.0	read	GLIBC_2.0	FUNC	GLOBAL
+libmad.so.0	_ITM_deregisterTMCloneTable		NOTYPE	WEAK
+libmad.so.0	_exit	GLIBC_2.0	FUNC	GLOBAL
+libmad.so.0	memmove	GLIBC_2.0	FUNC	GLOBAL
+libmad.so.0	free	GLIBC_2.0	FUNC	GLOBAL
+libmad.so.0	memcpy	GLIBC_2.0	FUNC	GLOBAL
+libmad.so.0	__stack_chk_fail	GLIBC_2.4	FUNC	GLOBAL
+libmad.so.0	__cxa_finalize	GLIBC_2.1.3	FUNC	WEAK
+libmad.so.0	waitpid	GLIBC_2.0	FUNC	GLOBAL
+libmad.so.0	malloc	GLIBC_2.0	FUNC	GLOBAL
+libmad.so.0	__gmon_start__		NOTYPE	WEAK
+libmad.so.0	write	GLIBC_2.0	FUNC	GLOBAL
+libmad.so.0	fcntl	GLIBC_2.0	FUNC	GLOBAL
+libmad.so.0	__errno_location	GLIBC_2.0	FUNC	GLOBAL
+libmad.so.0	pipe	GLIBC_2.0	FUNC	GLOBAL
+libmad.so.0	fork	GLIBC_2.0	FUNC	GLOBAL
+libmad.so.0	_ITM_registerTMCloneTable		NOTYPE	WEAK
+libmad.so.0	close	GLIBC_2.0	FUNC	GLOBAL
+libmad.so.0	calloc	GLIBC_2.0	FUNC	GLOBAL
+libmad.so.0	__sprintf_chk	GLIBC_2.3.4	FUNC	GLOBAL

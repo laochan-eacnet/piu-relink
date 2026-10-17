@@ -1,0 +1,42 @@
+#pragma once
+
+/* Fixed virtual addresses for volume-piu-unpacked.elf.
+ * Build ID: 3bda4c418b536bc77a6aa79db790cff14b9656c1
+ */
+#define PHOENIX_OPEN_VA ((void *)0x0807F3C2u)
+#define PHOENIX_READ_VA ((void *)0x08080830u)
+#define PHOENIX_READ_RANGE_VA ((void *)0x0807F572u)
+#define PHOENIX_SCAN_VA ((void *)0x08068620u)
+#define PHOENIX_VIDEO_LOADER_VA ((void *)0x080701FCu)
+#define PHOENIX_PLAYMOVIE_LOADER_VA ((void *)0x0806FB6Cu)
+#define PHOENIX_COMMAND_VA ((void *)0x08060F94u)
+#define PHOENIX_GLX_SWAP_BUFFERS_PLT ((void *)0x080501E0u)
+#define PHOENIX_SYSTEMCHECK_DONE_BRANCH_VA ((void *)0x08096C0Du)
+#define PHOENIX_UPDATE_STATE_VA ((void *)0x08066033u)
+#define PHOENIX_UPDATE_VA ((void *)0x08095FF0u)
+#define PHOENIX_DISK_ID_VA ((void *)0x08096883u)
+#define PHOENIX_LOCK_RESPONSE_VA ((void *)0x0811ACB0u)
+#define PHOENIX_PORT_IO_PROBE_VA ((void *)0x0810BC28u)
+#define PHOENIX_MIXER_HELPER_VA ((void *)0x0805D6B2u)
+#define PHOENIX_MIXER_HELPER_2_VA ((void *)0x08065826u)
+#define PHOENIX_RESOURCE_NEXT_VA ((void *)0x0805C9F4u)
+#define PHOENIX_RESOURCE_STREAM_VA ((void *)0x0805CA51u)
+#define PHOENIX_RESOURCE_ASSIGN_VA ((void *)0x0805D13Au)
+#define PHOENIX_MEDIA_STREAM_VA ((void *)0x080FF4BFu)
+#define PHOENIX_SWAP_INTERVAL_CALL_VA ((void *)0x0806824Du)
+#define PHOENIX_MARKET_FINALIZE_CALL_VA ((void *)0x080724BAu)
+#define PHOENIX_DIRECTORY_LOOKUP_VA ((void *)0x0805BC9Au)
+#define PHOENIX_GRADE_SONG_DIRECTORY_CALL_VA ((void *)0x080D7727u)
+#define PHOENIX_CHANNEL_CASE_12_VA ((void *)0x080AAE7Cu)
+#define PHOENIX_CHANNEL_CUSTOM_KEY_VA ((void *)0x081D0E2Du)
+
+/* Unsuffixed integers are also stringified by the naked channel adapter. */
+#define PHOENIX_CHANNEL_EMPTY_ADDR 0x080AA28F
+#define PHOENIX_CHANNEL_CASE_12_NATIVE_ADDR 0x080AAE85
+#define PHOENIX_CHANNEL_CLEANUP_ADDR 0x080AA3F1
+
+#define PHOENIX_SONG_COUNT_VA ((void *)0x09774B08u)
+#define PHOENIX_CHART_COUNT_VA ((void *)0x09774B0Cu)
+#define PHOENIX_SONG_RECORDS_VA ((void *)0x09774B10u)
+#define PHOENIX_CHART_RECORDS_VA ((void *)0x09774B14u)
+

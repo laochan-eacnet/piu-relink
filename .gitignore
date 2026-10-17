@@ -1,0 +1,26 @@
+# Proprietary game inputs: supply locally (piu binary, its i386 libs, game data tree)
+/piu
+/lib/
+/data/
+/usb_capture_*.jsonl
+
+# Local planning notes
+/PLAN.md
+
+# Build outputs and fetched/generated inputs
+/out/
+/sysroot/
+/ffmpeg/build/
+/ffmpeg/ffmpeg-*/
+/ffmpeg/*.tar.xz
+/bridges/gfx/gl_generated.h
+/phoenixtools/bin/
+/phoenixtools/runtime/
+*.db
+__pycache__/
+
+# External checkout (tools/nxssc.py: git clone https://github.com/Autumnal-nn/stepnx-studio ext/stepnx-studio)
+/ext/
+
+# Local experiments
+/scratch/

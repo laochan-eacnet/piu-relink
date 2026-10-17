@@ -1,0 +1,5 @@
+#pragma once
+
+#define PHOENIXTOOLS_PATH_MAX 4096
+#define PHOENIXTOOLS_KEY_NAME_MAX 32
+
