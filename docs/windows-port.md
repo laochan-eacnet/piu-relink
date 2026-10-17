@@ -153,7 +153,8 @@ described above. Details: `docs/opengl-x86.md` (Display configuration),
 | Video | VP9 WebM (attract, previews, gameplay backgrounds) via relinked FFmpeg |
 | Audio | 48 kHz S16 via WASAPI, 0 underruns over 220 s of menus + gameplay |
 | Input | scripted coin ×2 → start → Normal mode → song → stage 1 completed → stage 2 |
-| Startup | ~14 s to the first 60 fps frame (data tree scan) |
+| Startup | ~10 s to the first 60 fps title frame, including the game's own 5 s logo `sleep(5)` and three 1 s `sleep` calls |
+| Song select | Select Mode → song select renders after ~1.8 s (was a 36 s freeze: one full data-tree walk per unresolved resource, now a one-time basename index) |
 
 ## Known limits
 

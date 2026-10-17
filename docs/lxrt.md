@@ -89,9 +89,10 @@ non-socket files). The game itself only uses raw mode with `VMIN = VTIME = 0`.
 
 `[immutable]` mounts get a process-lifetime metadata cache (`metacache.c`): stat/lstat results
 (including `ENOENT`) and directory listings keyed by case-folded host path, and handle-less
-`opendir` for cached directories. phoenixtools' resolver walks the whole 35 GB data tree for every
-missing basename (`find_basename`); without the cache that walk takes seconds per call on
-Windows and freezes song selection.
+`opendir` for cached directories. phoenixtools' resolver case-folds paths component by component
+(stat, then a listing scan on a miss) and resolves bare basenames from an index built by one walk
+of each data root; the cache keeps those listings and the index walk free of repeated file-system
+round trips.
 
 When the EXE has no console or redirected std handles (GUI subsystem, started from Explorer),
 stdout and stderr are appended to `<exe name>.log` beside the EXE.

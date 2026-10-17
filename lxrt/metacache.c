@@ -1,8 +1,8 @@
 /* Process-lifetime metadata cache for [immutable] mounts (phoenixtools.ini).
  *
- * phoenixtools resolves game resources with stat/lstat + opendir/readdir walks over the 35 GB
- * read-only data tree (e.g. find_basename() recurses through every directory for each missing
- * basename). On Linux the dentry cache makes that cheap; on Windows each call is a file-system
+ * phoenixtools resolves game resources with stat/lstat + opendir/readdir over the 35 GB read-only
+ * data tree (component-wise case folding, plus one indexing walk per root for bare basenames).
+ * On Linux the dentry cache makes that cheap; on Windows each call is a file-system
  * round trip. For mounts declared immutable we cache stat results (including ENOENT) and
  * directory listings by case-folded host path. Entries are never invalidated: the mount is
  * read-only by contract (phoenixtools opens plain_root read-only).

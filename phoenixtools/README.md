@@ -32,7 +32,9 @@ of applying a partial patch set.
 The hook keeps the runtime offline and limits host exposure:
 
 - extracted plaintext resources are opened read-only through a case-insensitive
-  resolver;
+  resolver; bare resource names are looked up in a basename index built once per
+  data root on first use, so files added to `plain_root`/`overlay_root` while the
+  game runs are found after a restart;
 - optional overlay data is checked before the plaintext root;
 - writes to `/SETTINGS` and `/var/ucs` are redirected into a configured runtime
   sandbox;

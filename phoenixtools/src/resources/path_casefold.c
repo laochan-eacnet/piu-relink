@@ -3,6 +3,7 @@
 #include "resources/path_casefold.h"
 
 #include "config/config.h"
+#include "resources/basename_index.h"
 #include "core/limits.h"
 #include "core/log.h"
 
@@ -114,37 +115,6 @@ int pt_path_resolve_directory(const char *root, const char *guest_path,
     return resolve_existing(root, guest_path, resolved, capacity, 0);
 }
 
-static void find_basename(const char *directory, const char *basename,
-                          char *match, size_t capacity, unsigned int *matches,
-                          unsigned int depth)
-{
-    DIR *stream;
-    struct dirent64 *entry;
-
-    if (depth > 32u || *matches > 1u || !(stream = opendir(directory)))
-        return;
-    while ((entry = readdir64(stream)) != NULL && *matches <= 1u) {
-        char path[PHOENIXTOOLS_PATH_MAX];
-        struct stat status;
-        int written;
-
-        if (!strcmp(entry->d_name, ".") || !strcmp(entry->d_name, ".."))
-            continue;
-        written = snprintf(path, sizeof(path), "%s/%s", directory, entry->d_name);
-        if (written < 0 || (size_t)written >= sizeof(path) ||
-            lstat(path, &status) != 0)
-            continue;
-        if (S_ISDIR(status.st_mode))
-            find_basename(path, basename, match, capacity, matches, depth + 1u);
-        else if (S_ISREG(status.st_mode) && !strcasecmp(entry->d_name, basename)) {
-            ++*matches;
-            if (*matches == 1u && strlen(path) + 1u <= capacity)
-                strcpy(match, path);
-        }
-    }
-    closedir(stream);
-}
-
 int pt_path_resolve_unique_basename(const char *guest_path, char *resolved,
                                     size_t capacity)
 {
@@ -156,13 +126,14 @@ int pt_path_resolve_unique_basename(const char *guest_path, char *resolved,
         strchr(guest_path, '\\'))
         return -1;
     for (index = 0; index < 2u; ++index) {
-        unsigned int matches = 0;
+        int found;
         if (!*roots[index])
             continue;
-        find_basename(roots[index], guest_path, resolved, capacity, &matches, 0u);
-        if (matches == 1u)
+        found = pt_basename_index_lookup(index, roots[index], guest_path,
+                                         resolved, capacity);
+        if (found == 1)
             return 0;
-        if (matches > 1u && pt_config_verbose())
+        if (found == -1 && pt_config_verbose())
             pt_log("resource", "ambiguous basename %s below %s",
                    guest_path, roots[index]);
     }
